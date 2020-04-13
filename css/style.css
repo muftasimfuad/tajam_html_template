@@ -307,8 +307,9 @@ h6{
 	height: 55px;
 	font-size: 50px;
 	line-height: 50px;
+	background: -webkit-linear-gradient(to right, rgb(0, 224, 208), rgb(74, 163, 204));
 	background: linear-gradient(to right, rgb(0, 224, 208), rgb(74, 163, 204));
-	background-clip: text;
+	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	margin-bottom: 24px;
 }
